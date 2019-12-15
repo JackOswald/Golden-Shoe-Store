@@ -2,7 +2,7 @@
 
 # Live Demo
 
-* Visit the following link on desktop or mobile: https://golden-shoe-store.netlify.com/
+Visit the following link on desktop or mobile: https://golden-shoe-store.netlify.com/
 
 ## Scripts
 
