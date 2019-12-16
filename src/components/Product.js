@@ -130,6 +130,12 @@ const ProductWrapper = styled.div`
     transform: translate(0, 0);
   }
 
+  @media(hover: none) {
+    .cart-button {
+      transform: translate(0, 0);
+    }
+  }
+  
   .cart-button: hover {
     color: var(--white);
     background: var(--lightRed);

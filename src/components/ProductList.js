@@ -7,13 +7,13 @@ class ProductList extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="py-3">
+        <div className="py-3 row">
           <div className="container">
             <Title name="Golden" title="Shoe Store" />
             <div className="row">
               <ProductConsumer>
                 {value => {
-                  return value.products.map(product=> {
+                  return value.products.map(product => {
                     return <Product key={product.id} product={product} />;
                   });
                 }}
